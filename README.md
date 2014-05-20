@@ -7,3 +7,7 @@ This is the site we build in the node & express class
 * Express.js
 * Heroku
 * Heroku Toolbelt
+
+# NOTES:
+
+* one
