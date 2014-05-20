@@ -16,6 +16,7 @@
     "url": "https://github.com/dtuso/ExpressNodeTrainingSite/issues"
   },
   "dependencies": {
-    "express": "~4.2.0"
+    "express": "~4.2.0",
+    "ejs": "~1.0.0"
   }
 }
