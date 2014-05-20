@@ -46,8 +46,13 @@ app.get('/who/:name?/:title?', function(req, res) {
   res.send('<p>name: ' + name + '<br>title: ' + title + '</p>');
 });
 
+
+app.get(['/redirect','/godaddy'], function(req, res) {
+  res.redirect('http://www.godaddy.com');
+});
+
 app.get('*', function(req, res) {
-  res.send('Bad Route');
+  res.send(404,'Bad Route');
 });
 
 var server = app.listen(3000, function() {
