@@ -10,4 +10,5 @@ This is the site we build in the node & express class
 
 # NOTES:
 
-* one
+- one
+- two
